@@ -15,7 +15,6 @@ if ( defined( &ensure_path ) ){
     delete $ENV{'BIBINPUTS'};
     delete $ENV{'BSTINPUTS'};
     delete $ENV{'TEXINPUTS'};
-    ensure_path('BIBINPUTS', '?' );
     ensure_path('BIBINPUTS', './include//' );
     ensure_path('BSTINPUTS', './include//' );
     ensure_path('TEXINPUTS', './include//' );
